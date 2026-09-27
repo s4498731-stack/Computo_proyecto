@@ -19,7 +19,7 @@ if st.button("Enviar a la IA", type="primary"):
     else:
         st.warning("Por favor, escribe algo primero antes de presionar el botón.")
 
-# hola 3. Panel de control interactivo (Sidebar)
+# hoila 3. Panel de control interactivo (Sidebar)
 st.sidebar.header("⚙️ Ajustes del Modelo")
 temperatura = st.sidebar.slider("Temperatura (Creatividad)", min_value=0.0, max_value=1.0, value=0.7, step=0.1)
 st.sidebar.info(f"Configuración actual del equipo: {temperatura}")
